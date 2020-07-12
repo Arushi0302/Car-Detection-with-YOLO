@@ -24,7 +24,9 @@ The output is a list of bounding boxes along with the recognized classes.
 ## Model Summary
 
 Total params: 50,983,561
+
 Trainable params: 50,962,889
+
 Non-trainable params: 20,672
 _____________________________
 
@@ -36,4 +38,5 @@ _____________________________
 4. You can test different images in the Images folder to see the output.
 
 This is a basic model and is made with transfer learning using coco dataset for object detection.
+
 Note: The model has been made by taking reference from [this](https://www.coursera.org/learn/convolutional-neural-networks/notebook/bbBOL/car-detection-with-yolo) course. Also, it has used YOLO for object detection.

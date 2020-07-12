@@ -17,5 +17,23 @@ The input is a batch of images, and each image has the shape (m, 608, 608, 3). W
 
 The output is a list of bounding boxes along with the recognized classes. 
 
+#### Output snaps
+
+
+
 ## Model Summary
 
+Total params: 50,983,561
+Trainable params: 50,962,889
+Non-trainable params: 20,672
+_____________________________
+
+## Instructions
+
+1. Install yolo.h5 file from the source given in the readme file to use the model.
+2. You put this file in the model_data folder in the project.
+3. To use the model Run OD.IPYNB file in jupyter notebook.
+4. You can test different images in the Images folder to see the output.
+
+This is a basic model and is made with transfer learning using coco dataset for object detection.
+Note: The model has been made by taking reference from [this](https://www.coursera.org/learn/convolutional-neural-networks/notebook/bbBOL/car-detection-with-yolo) course. Also, it has used YOLO for object detection.

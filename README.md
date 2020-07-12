@@ -19,7 +19,7 @@ The output is a list of bounding boxes along with the recognized classes.
 
 #### Output snaps
 
-![Test Image 1](ss2.jpg)
+![Test o Image](ss2.jpg)
 
 ## Model Summary
 
